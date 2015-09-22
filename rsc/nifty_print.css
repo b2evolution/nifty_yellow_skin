@@ -1,0 +1,40 @@
+/* Just enough to make the main content print okay */
+
+/* select a generic font family */
+body {
+font-family: serif; font-size: 11pt;
+}
+
+/* get rid of image borders */
+img {
+border: none;
+}
+
+/* can we put a nice space above and below the page title? */
+.bTitle {
+margin-top: 12px;
+margin-bottom: 6px;
+}
+
+/* basic setup for the main posts section */
+.posts, .bPost {
+float: none;
+margin: 0px;
+padding: 0px;
+width: auto
+}
+
+/* each post gets a space beneath it on multipost pages */
+.bPost {
+margin-bottom: 22px;
+}
+
+/* don't print things like bloglist and sidebars and footers */
+.bSideBar, #pageFooter {
+display: none;
+}
+
+/* No nifty corners when printing */
+.rtop, .rbottom, .artop, .arbottom {
+display: none
+}
